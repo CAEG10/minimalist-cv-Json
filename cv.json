@@ -1,0 +1,280 @@
+{
+    "basics": {
+      "name": "Camilo Espinoza Gaete",
+      "label": "Master en Ciencias de la Computación, orientado a crear soluciones autónomas innovadoras y de alta calidad.",
+      "image": "/me2.jpeg",
+      "email": "camiloegaete@gmail.com",
+      "phone": "+56998777249",
+      "url": "",
+      "summary": "Como Ingeniero en Robótica e Inteligencia Artificial, me especializo en diseñar e implementar sistemas autónomos avanzados para resolver problemas complejos. Tengo experiencia en liderar proyectos de IA, desde el concepto hasta la ejecución, y en la integración de hardware y software en entornos industriales. Trabajo principalmente con Python, ROS, Aprendizaje por Refuerzo, y técnicas de Visión por Computador. Cuento con más de 3 años de experiencia en proyectos de innovación tecnológica en agricultura, monitorización ambiental y robótica avanzada.",
+      "location": {
+        "address": "",
+        "postalCode": "08820",
+        "city": "Santiago",
+        "countryCode": "CL",
+        "region": "Chile"
+      },
+      "profiles": [
+        {
+          "network": "Linkedin",
+          "username": "caeg",
+          "url": "https://linkedin.com/in/c-espinoza-gaete"
+        },
+        {
+          "network": "GitHub",
+          "username": "CAEG10",
+          "url": "https://github.com/CAEG10"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "RoboMotic Spa",
+        "position": "Ingeniero en Automatización y Robótica",
+        "url": "",
+        "startDate": "2023-01-02",
+        "endDate": "2023-03-13",
+        "summary": "Programación de un rover autónomo con Camra Stereo, RPLIDAR-S2 para medir espesor de metales. Desarrollo del módulo 'Drone in a Box' para el control y visualización en tiempo real de Drone mejorando intefaz gráfica. Desarrollo de Red Neuronal Convolucional para la detección de fisuras en camiones tolva mediante YOLOv7 y documentación técnica completa con control de versiones en Git.",
+        "highlights": [
+            "Desarrollo de rover autónomo con RPLIDAR-S2",
+            "Optimización del módulo de software 'Drone in a Box'",
+            "Detección de fisuras en camiones tolva con YOLOv7",
+            "Documentación técnica y control de versiones en Git"
+        ]
+    },    
+    {
+      "name": "Universidad Andrés Bello",
+      "position": "Ayudante de Cátedra (Práctica Temprana)",
+      "url": "",
+      "startDate": "2022-10-18",
+      "endDate": "2022-12-12",
+      "summary": "Apoyo en sesiones de reforzamiento en Electrónica, Sistemas Digitales y Redes de Datos para estudiantes de Ingeniería en Automatización y Robótica. Desarrollo de material didáctico sobre compuertas lógicas, microcontroladores, redes LAN/WAN, MQTT, IoT y tecnologías de desarrollo web, mejorando la comprensión de los estudiantes.",
+      "highlights": [
+          "Preparación y desarrollo de material educativo para Electrónica y Redes de Datos",
+          "Reforzamiento en temas avanzados de IoT, MQTT, y desarrollo de PCB",
+          "Sesiones prácticas sobre comunicación de redes y tecnologías de automatización"
+      ]
+  }  
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Universidad Andrés Bello",
+      "url": "https://www.postgradounab.cl/magister-en-ciencias-de-la-computacion/",
+      "area": "Magíster en Ciencias de la Computación",
+      "studyType": "Master",
+      "startDate": "2023-03-01",
+      "endDate": "2024-08-01",
+      "score": "6.4",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "DB1102 - Advanced SQL"
+      ]
+    },
+    {
+      "institution": "Universidad Andrés Bello",
+      "url": "https://admision.unab.cl/carreras/ingenieria-en-automatizacion-y-robotica/",
+      "area": "Ingeniero en Automatización y Robótica",
+      "studyType": "",
+      "startDate": "2018-01-02",
+      "endDate": "2022-01-02",
+      "score": "6.1",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "DB1102 - Advanced SQL"
+      ]
+    }],
+    
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      { "name": "C/C++", 
+        "level": "Intermedio", 
+        "keywords": [
+          "Sistemas Embebidos", "Desarrollo de Software"
+        ] 
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Node",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "ROS",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "MLFlow",
+        "level": "Avanzado",
+        "keywords": [
+          "MLOps"
+        ]
+      },
+      { "name": "DVC", "level": "Intermedio", "keywords": [] },
+      { "name": "AWS", "level": "Intermedio", "keywords": [] },
+      { "name": "GCP", "level": "Intermedio", "keywords": [] },
+      { "name": "Gazebo", "level": "Intermedio", "keywords": [] },
+      { "name": "Docker", "level": "Intermedio", "keywords": [] },
+      { "name": "MATLAB", "level": "Avanzado", "keywords": ["Análisis de Datos", "Simulación"] },
+      { "name": "TensorFlow", "level": "Avanzado", "keywords": ["Deep Learning", "Redes Neuronales"] },
+      { "name": "PyTorch", "level": "Intermedio", "keywords": [] },
+      { "name": "Python", "level": "Intermedio", "keywords": [] },
+      { "name": "OpenCV", "level": "Avanzado", "keywords": ["Visión por Computadora"] }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Advanced"
+      }
+    ],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+          "name": "Un Algoritmo Genético para el Diseño de Rutas del Plan de Búsqueda de un Submarino Siniestado",
+          "isActive": true,
+          "description": "Desarrollo de un AG para optimizar las rutas de búsqueda submarinos siniestrados. El objetivo es minimizar el tiempo de búsqueda y maximizar la eficiencia de los recursos disponibles.",
+          "highlights": ["Algoritmos Genéticos, Numpy, Pandas, Python, OpenCV"],
+          "url": "",
+          "github": ""
+      },
+      {
+          "name": "Modelo Predictivo para la Contaminación",
+          "isActive": true,
+          "description": "Desarrollo de modelos predictivos para estimar niveles de contaminantes PM10 y PM2.5 mediante Modelos de Redes Neuronales Recurrentes y mecanismos de atención,  facilitando la toma de decisiones en salud pública y gestión ambiental.",
+          "highlights": ["Python, TensorFlow, LSTM, RNN"],
+          "url": "",
+          "github": ""
+      },
+      {
+          "name": "Detección y Seguimiento de Mandarinas",
+          "isActive": true,
+          "description": "Desarrollo de un Sistema Sistema Robótico para la detección y seguimiento de mandarinas en entornos agrícolas, utilizando Redes Neuronales Convolucionales.",
+          "highlights": ["Python, OpenCV, MATLAB, ROS"],
+          "url": "",
+          "github": ""
+      },
+      {
+        "name": "Despliegue de Modelos Predictivos en Infraestructura Híbrida",
+        "isActive": false,
+        "description": "Desarrollo de un modelo de predicción de diabetes usando MLflow, con despliegue local y almacenamiento en la nube. Optimización de CI/CD en GitHub Actions y GitLab CI, mejorando accesibilidad y seguridad.",
+        "highlights": [
+            "Python, MLflow, GitHub Actions, GitLab CI/CD, ElasticNet​"
+        ],
+        "url": "",
+        "github": ""
+    }, 
+      {
+        "name": "Exploración y Mapeo Autónomo en Áreas Inaccesibles",
+        "isActive": false,
+        "description": "Sistema de navegación autónoma con Aprendizaje por Refuerzo (TD3) para exploración en áreas de acceso limitado. Utilizando ROS2 y OpenAI Gym Gazebo en entornos simulados.",
+        "highlights": [
+            "Python, ROS2, Aprendizaje por Refuerzo (TD3)",
+            "Simulación en OpenAI Gym Gazebo"
+        ],
+        "url": "",
+        "github": ""
+    },    
+      {
+          "name": "Prototipo de Robot Móvil para Detección de Plagas",
+          "isActive": false,
+          "description": "Desarrollo e Implementación de un sistema de detección de plagas basado en MASK R-CNN, integrando bases de datos y visualización en Laravel para monitoreo en tiempo real.",
+          "highlights": ["Laravel, MASK R-CNN, Python, OpenCV"],
+          "url": "",
+          "github": ""
+      }
+  ]
+  }

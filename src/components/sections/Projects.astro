@@ -1,0 +1,172 @@
+---
+import GitHub from "@/icons/GitHub.astro"
+import Section from "../Section.astro"
+
+import { projects } from "@cv"
+---
+
+<Section title="Proyectos">
+  <ul>
+    {
+      projects.map(
+        ({ url, description, highlights, name, isActive, github }) => {
+          return (
+            <li>
+              <article>
+                <header>
+                  <h3>
+                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                      {name}
+                    </a>
+                    {isActive && <span class="active-indicator">•</span>}
+                    {github && (
+                      <a
+                        class="github-code-link"
+                        href={github}
+                        target="_blank"
+                        title={`Ver código fuente del proyecto ${name}`}
+                      >
+                        <GitHub />
+                      </a>
+                    )}
+                  </h3>
+                  <p>{description}</p>
+                </header>
+                <footer>
+                  {highlights.map((highlight) => {
+                    return <span class="highlight">{highlight}</span>
+                  })}
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: flex;
+  }
+
+  article {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 100%;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  article header {
+    flex: 1;
+  }
+
+  article h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+  }
+
+  article a {
+    color: #2d3748;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+
+  article a:hover {
+    color: #4a5568;
+    text-decoration: underline;
+  }
+
+  article p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: #4a5568;
+  }
+
+  .active-indicator {
+    color: #48bb78;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 0;
+    vertical-align: middle;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .highlight {
+    border-radius: 9999px;
+    background: #e2e8f0;
+    color: #4a5568;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+
+  .highlight:hover {
+    background-color: #cbd5e0;
+    color: #2d3748;
+  }
+
+  .github-code-link {
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+
+  .github-code-link svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .github-code-link:hover svg {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 640px) {
+    ul {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media print {
+    article {
+      break-inside: avoid;
+      box-shadow: none;
+      border: 1px solid #e2e8f0;
+    }
+
+    article:hover {
+      transform: none;
+      box-shadow: none;
+    }
+  }
+</style>

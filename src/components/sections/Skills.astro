@@ -1,0 +1,90 @@
+---
+import Section from "../Section.astro"
+import HTML from "@/icons/Html.astro"
+import CSS from "@/icons/Css.astro"
+import JavaScript from "@/icons/Javascript.astro"
+import TypeScript from "@/icons/Type.astro"
+import React from "@/icons/React.astro"
+import Node from "@/icons/Node.astro"
+import MySQL from "@/icons/Sql.astro"
+import Git from "@/icons/Git.astro"
+import GitHub from "@/icons/GitHub.astro"
+import Tailwind from "@/icons/Tailwind.astro"
+import Next from "@/icons/Next.astro"
+import { skills } from "@cv"
+import TensorFlow from "@/icons/TensorFlow.astro"
+import Python from "@/icons/Python.astro"
+import ROS from "@/icons/ROS.astro"
+import OpenCV from "@/icons/OpenCV.astro"
+import MATLAB from "@/icons/MATLAB.astro"
+import Docker from "@/icons/Docker.astro"
+import MLFlow from "@/icons/MLFlow.astro"
+import PyTorch from "@/icons/PyTorch.astro"
+import AWS from "@/icons/AWS.astro"
+import GCP from "@/icons/GCP.astro"
+import Gazebo from "@/icons/Gazebo.astro"
+import DVC from "@/icons/DVC.astro"
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  // TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Next,
+  Tailwind,
+  TensorFlow,
+  Python,
+  PyTorch,
+  ROS,
+  OpenCV,
+  MATLAB,
+  Docker,
+  MLFlow,
+  AWS,
+  GCP,
+  Gazebo,
+  DVC,
+}
+---
+
+<Section title="Habilidades">
+  <ul>
+    {
+      skills.sort((a, b) => a.name.localeCompare(b.name)).map(({ name }) => {
+        const iconName = name === "Next.js" ? "Next" : name
+        const Icon = SKILLS_ICONS[iconName]
+
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+</style>
