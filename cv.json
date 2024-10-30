@@ -34,7 +34,7 @@
         "url": "",
         "startDate": "2023-01-02",
         "endDate": "2023-03-13",
-        "summary": "Programación de un rover autónomo con Camra Stereo, RPLIDAR-S2 para medir espesor de metales. Desarrollo del módulo 'Drone in a Box' para el control y visualización en tiempo real de Drone mejorando intefaz gráfica. Desarrollo de Red Neuronal Convolucional para la detección de fisuras en camiones tolva mediante YOLOv7 y documentación técnica completa con control de versiones en Git.",
+        "summary": "Programación de un rover autónomo con Cámara Estéreo, RPLIDAR-S2 para medir espesor de metales. Desarrollo del módulo 'Drone in a Box' para el control y visualización en tiempo real de Drone mejorando intefaz gráfica. Desarrollo de Red Neuronal Convolucional para la detección de fisuras en camiones tolva mediante YOLOv7 y documentación técnica completa con control de versiones en Git.",
         "highlights": [
             "Desarrollo de rover autónomo con RPLIDAR-S2",
             "Optimización del módulo de software 'Drone in a Box'",
